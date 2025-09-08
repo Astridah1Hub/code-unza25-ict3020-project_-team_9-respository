@@ -1,0 +1,39 @@
+/* styles.css */
+/* popup styles */
+.popup {
+  width: 320px;
+  padding: 12px;
+  font-family: Arial, sans-serif;
+}
+.popup h3 {
+  margin: 0 0 8px 0;
+  font-size: 16px;
+}
+.controls {
+  display:flex;
+  gap:8px;
+  margin-bottom:8px;
+}
+.controls button {
+  flex:1;
+  padding:6px;
+  font-size:13px;
+}
+.status {
+  font-size:12px;
+  margin-bottom:6px;
+}
+.note {
+  font-size:11px;
+  color:#444;
+}
+
+/* highlight style injected in page */
+.wsh-highlight {
+  background: linear-gradient(90deg, rgba(255,250,180,0.9), rgba(255,235,160,0.9));
+  border-bottom: 2px dashed #d4a017;
+  padding: 0 2px;
+  border-radius: 2px;
+}
+
+/* tooltip class for content script is created inline in JS with inline styles */

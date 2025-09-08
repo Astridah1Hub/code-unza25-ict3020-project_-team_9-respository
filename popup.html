@@ -1,0 +1,62 @@
+<!-- popup.html -->
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Wiki Source Helper</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <style>
+      body, .popup {
+        width: 280px;
+        min-width: 220px;
+        padding: 16px;
+        font-family: Arial, sans-serif;
+        background: #fff;
+      }
+      h3 {
+        margin-top: 0;
+        font-size: 1.2em;
+      }
+      .controls {
+        display: flex;
+        gap: 10px;
+        margin-bottom: 10px;
+      }
+      button {
+        flex: 1;
+        padding: 8px 0;
+        font-size: 1em;
+        border-radius: 5px;
+        border: 1px solid #bbb;
+        background: #f7f7f7;
+        cursor: pointer;
+        transition: background 0.2s;
+      }
+      button:hover {
+        background: #ffe066;
+      }
+      .status {
+        margin: 8px 0;
+        font-size: 0.98em;
+        color: #333;
+      }
+      .note {
+        font-size: 0.92em;
+        color: #666;
+        margin-top: 8px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="popup">
+      <h3>Wiki Source Helper</h3>
+      <div class="controls">
+        <button id="scan">Scan page</button>
+        <button id="clear">Clear highlights</button>
+      </div>
+      <div id="status" class="status">Ready.</div>
+      <div class="note">Works on Wikipedia article pages. Click highlighted sentence to search the web or Wikipedia.</div>
+    </div>
+    <script src="popup.js"></script>
+  </body>
+</html>

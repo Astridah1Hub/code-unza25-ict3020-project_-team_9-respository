@@ -1,0 +1,33 @@
+{
+  "manifest_version": 3,
+  "name": "Wiki Source Helper (Feasibility Prototype)",
+  "version": "0.1",
+  "description": "Highlight sentences on Wikipedia that likely need citations and help find potential sources (opens web searches).",
+
+  "permissions": [
+    "scripting",
+    "activeTab",
+    "tabs",
+    "storage"
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Wiki Source Helper"
+  },
+  "host_permissions": [
+    "https://*.wikipedia.org/*",
+    "http://*.wikipedia.org/*",
+    "https://www.google.com/*"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content_script.js"],
+      "css": ["styles.css"],
+      "run_at": "document_idle"
+    }
+  ]
+}
