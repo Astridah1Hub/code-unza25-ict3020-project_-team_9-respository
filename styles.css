@@ -1,16 +1,18 @@
+ 
 .wsh-highlight, .wiki-helper-highlight {
-  background: #ffff00 !important;
+  background: #cceeff !important; /* light blue */
   color: #000 !important;
-  border: 2px solid orange !important;
+  border: 2px solid #3399cc !important; /* blue border */
   border-radius: 4px;
   padding: 2px 4px;
   margin-left: 4px;
   font-weight: bold;
-  box-shadow: 0 0 6px 2px #ffec80;
+  box-shadow: 0 0 6px 2px #b3e0ff;
 }
 .wiki-helper-btn {
   margin-left: 6px;
   padding: 2px 6px;
   font-size: 0.9em;
   cursor: pointer;
+
 }
