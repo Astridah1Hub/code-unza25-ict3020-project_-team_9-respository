@@ -1,6 +1,6 @@
 {
   "manifest_version": 3,
-  "name": "Wiki Source Helper (Feasibility Prototype)",
+  "name": "infocheck for Wikipedia Helper(Feasibility Prototype)",
   "version": "0.1",
   "description": "Highlight sentences on Wikipedia that likely need citations and help find potential sources (opens web searches).",
 
@@ -12,7 +12,7 @@
   ],
   "action": {
     "default_popup": "popup.html",
-    "default_title": "Wiki Source Helper"
+    "default_title": "infocheck for wikipedia Helper"
   },
   "host_permissions": [
     "https://*.wikipedia.org/*",
