@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "infocheck for Wikipedia Helper(Feasibility Prototype)",
   "version": "0.1",
-  "description": "Highlight sentences on Wikipedia that likely need citations and help find potential sources (opens web searches).",
+  "description": "Highlight sentences on Wikipedia that would  likely need citations and help find potential sources (opens web searches).",
 
   "permissions": [
     "scripting",
